@@ -10,3 +10,4 @@ class Wrapper():
         Special: Nothing
         """
         self.base = "https://europe-west3-brdata-corona.cloudfunctions.net/lglApi/"
+        
