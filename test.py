@@ -10,3 +10,8 @@ class Wrapper():
         Special: Nothing
         """
         self.base = "https://europe-west3-brdata-corona.cloudfunctions.net/lglApi/"
+
+    def get_data(self):
+        # TODO: add docu
+        r = requests.get(self.base)
+        return json.loads(r.content)
